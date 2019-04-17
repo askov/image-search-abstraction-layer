@@ -1,0 +1,27 @@
+{
+  "name": "image-search-abstraction-layer",
+  "version": "0.0.1",
+  "description": "FreeCodeCamp Image Search Abstraction Layer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.5",
+    "mongodb": "^2.2.31",
+    "node-rest-client": "^3.1.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/askov/image-search-abstraction-layer/tree/glitch"
+  },
+  "author": "Aleksandr Askov",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

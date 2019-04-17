@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortener Microservice</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="center-column">
+        <h1>Free code camp: URL Shortener Microservice</h1>
+        <h2>User story:</h2>
+        <ul>
+            <li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
+            <li>If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will
+                contain an error instead.</li>
+            <li>When I visit that shortened URL, it will redirect me to my original link.</li>
+        </ul>
+        <h2>Usage</h2>
+        <h4>Create short URL</h4>
+        <p>Shortened URL for your link can be created using the following scheme:</p>
+        <p class="example">https://url-shortener-microservice-aa.glitch.me + /new/ + &#9001; your_url &#9002;</p>
+        <p>If the form of provided URL is valid response will be:</p>
+        <p class="example">{original_url: &#9001; original_url &#9002;, short_url: &#9001; short_url &#9002;}</p>
+        <p>Invalid URLs will lead to an error:</p>
+        <p class="example">{error: &#9001; error_message &#9002;}</p>
+        <h4>Use provided shortened URL</h4>
+        <p>The short link received will redirect you to original URL.</p>
+        <p class="example">https://url-shortener-microservice-aa.glitch.me + / + &#9001; short_url &#9002;</p>
+        <h3>Examples</h3>
+        <ul>
+            <li>https://url-shortener-microservice-aa.glitch.me/new/https://google.com</li>
+            <li>https://url-shortener-microservice-aa.glitch.me/new/https://ru.wikipedia.org/wiki/Yahoo!</li>
+            <li>https://url-shortener-microservice-aa.glitch.me/new/https://golang.org/pkg/net/http/</li>
+        </ul>
+        <h3>Source</h3>
+        <p>Project source code is available on <a href="https://github.com/askov/url-shortener-microservice/tree/glitch" target="_blank">github</a>.</p>
+        <footer>
+            <p>Created by Aleks Askov</p>
+            <p>
+                <a href="https://github.com/askov" target="_blank"><span class="fa fa-github fa-2x social-button"></span></a>
+                <a href="https://www.freecodecamp.com/aleks-askov" target="_blanket"><span class="fa fa-free-code-camp fa-2x social-button"></span></a>
+                <a href="https://twitter.com/AleksandrAskov" target="_blanket"><span class="fa fa-twitter fa-2x social-button"></span></a>
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

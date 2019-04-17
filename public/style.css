@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1em;
+}
+
+ul {
+    padding-left: 2em;
+}
+
+li {
+    margin-top: 0.5em;
+}
+
+p {
+    margin-top: 0.5em;
+}
+
+h1 {
+    text-align: center;
+}
+
+.center-column {
+    margin: 1em auto;
+    width: 90%;
+    min-width: 200px;
+    max-width: 900px;
+}
+
+.example {
+    padding: 1em;
+    background-color: grey;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid grey;
+    margin-top: 2em;
+    padding-top: 1em;
+}
+
+footer a {
+    color: #3D3D3D;
+}
